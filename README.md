@@ -1,14 +1,15 @@
-### Date created
-Include the date you created this project and README file.
+### 19.12.2019
 
-### Project Title
-Replace the Project Title
+
+### Bikeshare analysis
+
 
 ### Description
-Describe what your project is about and what it does
+The project is about researching of data from bike share service.
+It calculate some statistical metrics and supports users parameters input.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
