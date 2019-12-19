@@ -221,3 +221,37 @@ def main():
 
 if __name__ == "__main__":
 	main()
+#function to show portions (5 strings) of the raw data
+def raw_data(df):
+    
+    while True:
+        try:
+            show_raw_data = input('Would you like to see a sample (just 5 rows) of the raw data? (yes or no) \n ').lower()
+            if show_raw_data not in ['yes', 'no']:
+                print('Please, enter yes or no;')
+            else:
+                break
+        except:
+            print('Incorrect value; Please, enter yes or no;')
+    
+    if show_raw_data == 'no':
+        return
+    
+    print(df.iloc[0:5])
+    i = 0
+    
+    while True:
+        try:
+            more_raw_data = input('Would you like to see additional 5 rows of the raw data? (yes or no) \n ').lower()
+        except:
+            print('Incorrect value; Please, enter yes or no;')
+        else:
+            if more_raw_data == 'yes':
+                i += 5
+                try:
+                    print(df.iloc[i:i+5])
+                except:
+                    print('There is no more data')
+                    return
+            elif more_raw_data == 'no':
+                return
