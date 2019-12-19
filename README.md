@@ -17,3 +17,4 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 Step 3: additional changes to documentation:
  - first change
+ - second change
