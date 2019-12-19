@@ -221,7 +221,7 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
+#function to show portions (5 strings) of the raw data
 def raw_data(df):
     
     while True:
